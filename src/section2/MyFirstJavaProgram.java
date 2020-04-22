@@ -17,10 +17,10 @@ public class MyFirstJavaProgram {
 		
 		rob.setPenColor(Color.RED);
 		
-		for(int i=0; i<6 ; i++) {
+		for(int i=0; i<10 ; i++) {
 		
 		rob.move(100);
-		rob.turn(360/6);
+		rob.turn(360/10);
 		
 		}
 	}
