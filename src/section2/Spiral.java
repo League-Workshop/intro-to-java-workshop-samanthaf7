@@ -31,7 +31,12 @@ public class Spiral {
 			
 			rob.setRandomPenColor();
 			
-			rob.sparkle();
+			rob.move(5*i);
+			
+			rob.turn(360/7);
+			
+			rob.setPenWidth(i);
+			
 			
 		}
 		
